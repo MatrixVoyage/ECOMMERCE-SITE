@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700;800&family=Rubik:wght@300;400;500;600&display=swap');
+/* ROOT */
 :root {
     --light-text-color: #cccccc; 
     --light-bg-color: #f2f3f5; 
@@ -82,6 +83,7 @@ h4{
     font-size: 1em;
     font-weight: var(--fw6);
 }
+/* @ */
 .container{
     max-width: 1280px;
     margin:0 auto;
@@ -319,6 +321,7 @@ nav .fly-item{
     background-color: var(--secondary-dark-color);
     border-radius: 60%
 }
+/* header main department */
 .header-main{
     background-color: var(--secondary-dark-color);
     padding: 1.5rem 0;
@@ -412,6 +415,7 @@ form.search button:hover{
     margin-left: 100px;
 }
 
+/* Slider */
 .slider > div > .wrapper{
     width: calc(100% - (300px * 2em));
     margin-left: 320px;
@@ -448,6 +452,7 @@ form.search button:hover{
     text-transform: uppercase;
     letter-spacing: -1px;
 }
+/* brands */
 .brands .wrapper{
     justify-content: space-around;
     flex-wrap: wrap;
@@ -594,71 +599,6 @@ form.search button:hover{
     margin: 0 auto;
 
 }
-
-body {
-    padding: 10px;
-}
-
-@media (max-width: 768px) {
-    .signin-container {
-        width: 90%;
-        padding: 20px;
-    }
-
-    .signin-container h2 {
-        font-size: 20px;
-    }
-
-    .signin-container input[type="text"],
-    .signin-container input[type="password"] {
-        font-size: 13px;
-    }
-
-    .signin-container input[type="submit"] {
-        font-size: 14px;
-    }
-
-    .signin-container .forgot-password {
-        font-size: 12px;
-    }
-
-    .google-logo {
-        width: 80px;
-    }
-}
-
-@media (max-width: 480px) {
-    .signin-container {
-        width: 100%;
-        border-radius: 0;
-        padding: 15px;
-        box-shadow: none;
-    }
-
-    .signin-container h2 {
-        font-size: 18px;
-    }
-
-    .signin-container input[type="text"],
-    .signin-container input[type="password"] {
-        font-size: 12px;
-        padding: 10px;
-    }
-
-    .signin-container input[type="submit"] {
-        font-size: 13px;
-        padding: 10px;
-    }
-
-    .signin-container .forgot-password {
-        font-size: 11px;
-    }
-
-    .google-logo {
-        width: 70px;
-    }
-}
-
 
 
 
@@ -899,5 +839,3 @@ body {
 
     }
 }
-
-
