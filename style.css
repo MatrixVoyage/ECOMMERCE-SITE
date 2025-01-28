@@ -362,7 +362,7 @@ nav .fly-item{
 }
 .dpt-menu .child:hover ul{
     display: block;
-    opacity: .86;
+   
 
 }
 .header-main .right{
@@ -370,6 +370,9 @@ nav .fly-item{
 
 }
 .dpt-menu .child li a:hover{ 
+    text-decoration: underline;
+}
+.dpt-menu .child ul li a:hover {
     text-decoration: underline;
 }
 
@@ -599,8 +602,93 @@ form.search button:hover{
     margin: 0 auto;
 
 }
+/* footer */
+/* Import Remix Icons */
+@import url("https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css");
 
+/* Footer Styles */
+.footer {
+    background-color: var(--secondary-dark-color);
+    color: #ecf0f1;
+    padding: 40px 0 20px;
+    font-family: 'Arial', sans-serif;
+}
 
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: var(--dark-color);
+}
+
+.footer-section p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.footer-section.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section.links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section.links ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section.links ul li a:hover {
+    color:var(--dark-color);
+}
+
+.footer-section.links ul li a i {
+    margin-right: 8px;
+}
+
+.footer-section.social .social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-section.social .social-icons a {
+    color: #ecf0f1;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.footer-section.social .social-icons a:hover {
+    color: var(--dark-color);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #34495e;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.9rem;
+}
 
 
 
