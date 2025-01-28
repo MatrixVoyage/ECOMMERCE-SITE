@@ -7,7 +7,6 @@
     box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700;800&family=Rubik:wght@300;400;500;600&display=swap');
-/* ROOT */
 :root {
     --light-text-color: #cccccc; 
     --light-bg-color: #f2f3f5; 
@@ -83,7 +82,6 @@ h4{
     font-size: 1em;
     font-weight: var(--fw6);
 }
-/* @ */
 .container{
     max-width: 1280px;
     margin:0 auto;
@@ -321,7 +319,6 @@ nav .fly-item{
     background-color: var(--secondary-dark-color);
     border-radius: 60%
 }
-/* header main department */
 .header-main{
     background-color: var(--secondary-dark-color);
     padding: 1.5rem 0;
@@ -415,7 +412,6 @@ form.search button:hover{
     margin-left: 100px;
 }
 
-/* Slider */
 .slider > div > .wrapper{
     width: calc(100% - (300px * 2em));
     margin-left: 320px;
@@ -452,7 +448,6 @@ form.search button:hover{
     text-transform: uppercase;
     letter-spacing: -1px;
 }
-/* brands */
 .brands .wrapper{
     justify-content: space-around;
     flex-wrap: wrap;
@@ -600,12 +595,10 @@ form.search button:hover{
 
 }
 
-/* General styles for responsiveness */
 body {
     padding: 10px;
 }
 
-/* Responsive styles for smaller devices */
 @media (max-width: 768px) {
     .signin-container {
         width: 90%;
